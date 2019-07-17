@@ -1,5 +1,5 @@
 # Print "Hello world" to the screen
-# Print "Hello [your name" to the screen
+# Print "Hello [your name]" to the screen
 # Print your name and your age to the screen
 # Print the substring "my first" from the string "This is my first message"
 
