@@ -1,2 +1,15 @@
 # Write a program that asks the user for their name and respond "Hello, [their name]"
-# Come up with three different questions to ask the user and print them out in a list under their name
+# Come up with three different questions to ask the user and print them out in a list under their name 
+stringInput = input("Insert Full Name:")
+print (type(stringInput),"Hello,", stringInput, ".  Set up your profile by anwsering some basic questions.")
+stringinput = input("What is your gender?  ")
+intinput = int(input("How old are you?  ")) 
+Stringinput = input("What city/ town do you live in?  ")
+print()
+print()
+print("Profile:")
+print(type(stringInput), "Name:",stringInput)
+print (type(stringinput), "Gender:",stringinput)
+print(type(intinput), "Age:",intinput)
+print(type(Stringinput),"From:", Stringinput)
+print(type(stringInput),"Welcome", stringInput, ",  You have up finshed signing up for Virus.com")

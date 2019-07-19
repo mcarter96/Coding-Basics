@@ -20,3 +20,5 @@ print(type(intInput), intInput)
 
 floatInput = float(input("Enter a decimal number: "))
 print(type(floatInput), floatInput)
+
+print(type(x), x)
