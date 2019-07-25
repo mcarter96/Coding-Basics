@@ -1,5 +1,14 @@
 # Accessing GitHub through the Terminal
 
+Lesson 1: HelloWorld
+Lesson 2: inputFromKeyboard
+Lesson 3: ifAndOrButs
+Lesson 4: functions
+Lesson 5: letsGetLoopy
+Lesson 6: randomNumbers
+Project 1: Hangman
+
+
 ## Check What's in a Folder
 If you type the command anywhere in the Terminal, it will print a list of items that are in the current directory you are in. Then you can use tab complete to finish typing a folder or file e.g. if you start typing "Documents", you can press tab after "Doc" and it will automatically type in the rest of the word
 
