@@ -25,6 +25,8 @@ print(array[-1])
 print(array[:3])
 print(array[2:4])
 
+array.append(6)
+
 print(temp[:5])
 
 x = 10

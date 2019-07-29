@@ -26,7 +26,7 @@ else:
 # You can also use if statements with certain values to check ints, floats, strings, etc. 
 
 age = 16
-if age <= 16:
+if age < 16:
     print("You cannont drive")
 else:
     print("You can drive")
