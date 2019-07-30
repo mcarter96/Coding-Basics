@@ -8,9 +8,11 @@ Lesson 3: ifAndOrButs
 
 Lesson 4: functions
 
-Lesson 5: letsGetLoopy
+Lesson 5: aLotOfRays
 
-Lesson 6: randomNumbers
+Lesson 6: letsGetLoopy
+
+Lesson 7: randomNumbers
 
 Project 1: Hangman
 
