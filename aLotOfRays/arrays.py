@@ -108,3 +108,11 @@ print(newCars, '\n')
 
 newCars.sort()
 print(newCars, '\n')
+
+# You can also create an array from user input using a for loop (You'll learn more about this in the next lesson)
+print("Example 8")
+newArray = []
+for x in range(5):
+    nextInt = int(input("Enter a number: "))
+    newArray.append(nextInt)
+print(newArray)
