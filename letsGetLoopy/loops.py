@@ -97,3 +97,27 @@ for x in range(5):
 # Note: the parameter "end=''" allows you to change what is printed after the print statement. The default is 
 # newline. In the example, I have it put a space after it prints each object, but you can have it be anything
 # that you want it to be.
+
+# The other type of loop is a while loop. These are pretty simple, they will run as long as the condition is true
+
+print("Example 10")
+x = 0
+while x < 10:
+    x += 1
+    print(x)
+
+# You can use any conditional that you would use in an if statement for while loops too
+
+print("Example 11")
+coldOut = False
+temperature = 55
+while coldOut == False:
+    print(temperature)
+    temperature -= 1
+    if temperature < 50:
+        coldOut = True
+
+# Be careful when using while loops, if you have a logical error, your the loop will become an infinite loop and run forever.
+# while True:
+#     print("INFINITE LOOP")
+# To stop running your program if this happens, either hit the stop button at the top or Shift+F5
