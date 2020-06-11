@@ -57,3 +57,8 @@ def main():
 main()
 
 
+#Part 1
+ def NO():
+    
+
+
