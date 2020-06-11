@@ -7,7 +7,7 @@
 #Part 1
 grade= int(input("Insert grade precentage   "))
 
-if grade >100:
+if grade > 100:
     print("Stop lying")
 elif grade >= 97:
     print("Good Job, A+")  
@@ -36,6 +36,9 @@ elif grade >= 60 and grade < 63:
 elif grade >= 0 and grade < 60:
     print("https://www.mcdonalds.com/us/en-us/careers.html")  
 
+# This section looks really good. You were through in your cases and I like your responses.
+# Really nice job
+
 #Part 2
 
 inputOne = int(input("Enter Number:  "))
@@ -62,3 +65,45 @@ elif inputTwo < inputOne and inputTwo < inputThree:
     print(inputTwo)
 elif inputThree < inputOne and inputThree <inputTwo:
     print(inputThree)
+
+# This section has some logical erros. The code itself looks good, but it doesn't handle all test cases.
+# For example, if I enter 1, 2, 3, then I get 3, 1. This was a complicated problem and you did really well
+# for only have been coding for a week or so. I've put a solution down below
+
+firstNumber = int(input("Enter your first number: "))
+secondNumber = int(input("Enter your second number: "))
+thirdNumber = int(input("Enter your last number: "))
+
+if firstNumber > secondNumber and firstNumber > thirdNumber:
+    print(firstNumber, end=' ')
+    if secondNumber > thirdNumber:
+        print(secondNumber, thirdNumber)
+    else:
+        print(thirdNumber, secondNumber)
+elif secondNumber > firstNumber and secondNumber > thirdNumber:
+    print(secondNumber, end=' ')
+    if firstNumber > thirdNumber:
+        print(firstNumber, thirdNumber)
+    else:
+        print(thirdNumber, firstNumber)
+elif thirdNumber > firstNumber and thirdNumber > secondNumber:
+    print(thirdNumber, end=' ')
+    if firstNumber > secondNumber:
+        print(firstNumber, secondNumber)
+    else:
+        print(secondNumber, firstNumber)
+
+# As you can see, your solution wasn't too far off. Like I said above, you did a really good job with not having
+# a lot of coding experience. I'm very impressed. Looking back at the notes I wrote, I didn't see any nested if statements
+# so it's my fault if you didn't know you could do that. A nested if statement is when you have an if statement and the command
+# it will run is another if statement. If you need any help in the future or something I wrote is unclear, upload what you have to 
+# GitHub and I'll help you with it. 
+# 
+# For testing the second one, I ran the following test cases:
+# 1 2 3
+# 1 3 2
+# 2 1 3
+# 2 3 1
+# 3 1 2
+# 3 2 1
+

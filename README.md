@@ -8,9 +8,11 @@ Lesson 3: ifAndOrButs
 
 Lesson 4: functions
 
-Lesson 5: letsGetLoopy
+Lesson 5: aLotOfRays
 
-Lesson 6: randomNumbers
+Lesson 6: letsGetLoopy
+
+Lesson 7: randomNumbers
 
 Project 1: Hangman
 
@@ -26,6 +28,17 @@ If you type the command anywhere in the Terminal, it will print a list of items 
 5. Type 'git commit -m "[your message]"'
 6. Type 'git push'
 
+## Updating your Local Repository
+1. Open up Terminal
+2. Type 'cd Documents/Coding'
+3. Type 'git pull'
+
+## Accessing your Files
+1. Open up Terminal 
+2. Type 'cd Documents/Coding'
+3. Type 'cd [folder name]'
+4. Type 'code [filename]'
+
 ## Making a New File
 1. Open up Terminal
 2. Type 'cd Documents/Coding'
@@ -39,14 +52,3 @@ a. If you're gonna start a new folder, look at "Making a New Folder"
 2. Type 'cd Documents/Coding'
 3. Type 'mkdir [folder name]'
 4. Type 'cd [folder name]'
-
-## Updating your Local Repository
-1. Open up Terminal
-2. Type 'cd Documents/Coding'
-3. Type 'git pull'
-
-## Accessing your Files
-1. Open up Terminal 
-2. Type 'cd Documents/Coding'
-3. Type 'cd [folder name]'
-4. Type 'code [filename]'

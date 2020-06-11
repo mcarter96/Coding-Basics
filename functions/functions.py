@@ -49,11 +49,24 @@ def getNumbers():
     total = addNumbers(firstInt, secondInt)
     return total
 
+# When you are writing functions, you should put a comment above it that tells the reader what it does, the parameters
+# it takes, and what the function will return if anything. For example:
+
+# Takes an array and returns the sum
+# Parameter: array1 - an array of integers 
+# Returns: total - the sum of the array (or n/a if the function returns nothing)
+def sumOfArray(array1):
+    total = 0
+    for x in array1:
+        total = total + x
+    return total
+
 def main():
     print(getNumbers())
+    print(sumOfArray([1, 2, 3]))
 
 # Make sure you write the function that you want to call outside of the function so that the computer knows which 
-# function to call
+# function to call. The main function should always go at the bottom of your program
 main()
 
 
