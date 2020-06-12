@@ -22,8 +22,7 @@ If you type the command anywhere in the Terminal, it will print a list of items 
 
 ## Updating GitHub With Your Assignment
 1. Open up Terminal
-2. Type 'cd Documents/Coding'
-2a. You might need to do a 'git pull' before uploading 
+2. Type 'cd Documents/Coding' Note: You might need to do a 'git pull' before uploading 
 3. Type 'git add .'
 5. Type 'git commit -m "[your message]"'
 6. Type 'git push'
