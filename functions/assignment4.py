@@ -36,6 +36,7 @@ def findSum():
     valueFour= int(input("Enter 4th Number:  "))
     anwser = coolerAddition(valueOne, valueTwo, valueThree, valueFour)
     return anwser
+    # where is the max number out of the given values?
 
 def question():
     print ("Addition(1) or cooler Addition(2)")
@@ -45,4 +46,6 @@ def question():
     elif questionanwser == 2:
         print(findSum())
 
-print(question())
+# print(question())
+# you don't need to call print for this function since you already have everything print in the function itself
+question()

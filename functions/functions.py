@@ -68,10 +68,3 @@ def main():
 # Make sure you write the function that you want to call outside of the function so that the computer knows which 
 # function to call. The main function should always go at the bottom of your program
 main()
-
-
-#Part 1
- def NO():
-    
-
-
